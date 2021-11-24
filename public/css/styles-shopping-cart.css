@@ -113,12 +113,13 @@ section article a {
 }
 @media (min-width: 769px) {
     main section article div.product-truck{
-        text-align:center;
-        margin: 30px auto;
-        width:50%;
-        justify-content: flex-start;
+        text-align: center;
+    margin: 30px auto;
+    width: 600px;
+    justify-content: flex-start;
     }
 }
+
 @media (min-width: 1280px) {
     main section article div.product-truck{
         position:relative;

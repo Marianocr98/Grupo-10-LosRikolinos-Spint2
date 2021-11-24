@@ -84,6 +84,9 @@ body {
 
 
 
+
+
+
 /*Inicio del Main*/
 
 
@@ -196,6 +199,26 @@ animation: carrucel 14s infinite alternate linear;
 
 
 
+.ver-mas{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.ver-mas p {
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    border-radius: 10px;
+    background-color: black;
+    text-decoration: none;
+}
+
+.ver-mas a{
+    text-decoration: none;
+}
 
 /*INICIO SECION DE NOSOTROS */
 .nosotros{

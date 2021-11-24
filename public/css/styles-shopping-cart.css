@@ -16,6 +16,7 @@ div.top-header{
 h2{
     text-align: center;
     color : #000;
+    margin:auto;
 }
 h3{
     text-align: center;
@@ -23,8 +24,8 @@ h3{
 }
 hr{
     margin: 20px;
-
 }
+
 .h3-precio-total{
     width: 200px;
     border-radius: 500px;
@@ -49,7 +50,8 @@ button.boton-comprar{
     margin: 10px 0 10px 0;
 }
 main section article div.product-truck {
-    margin: 20px 0 ;
+    background: linear-gradient(90deg, rgba(9,9,7,1) 0%, rgba(203,28,28,1) 51%, rgba(9,8,7,1) 100%);
+    margin: 20px 20px ;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -77,7 +79,7 @@ main section article div.product-truck {
 }
 
 .img-product-truck img{
-
+    margin: 10px 0;
     width: 120px;
     height: 120px;
     border-radius: 60px;
@@ -89,13 +91,14 @@ section article a {
 }
 @media (min-width: 480px) {
     main section article div.product-truck{
-        margin: 20px 20px;
+        margin: 40px auto;
         display: flex;
-        flex-wrap: wrap;
         flex-direction: row;
-        justify-content: flex-start;
         text-align: center;
+        width: 400px;
         align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
     }
     .descriptiones-truck{
         position: relative;
@@ -108,8 +111,43 @@ section article a {
         bottom: -20px;
     }
 }
-@media (min-width: 760px){
-    .img-product-truck img{
-        width: 360px;
+@media (min-width: 769px) {
+    main section article div.product-truck{
+        text-align:center;
+        margin: 30px auto;
+        width:50%;
+        justify-content: flex-start;
     }
+}
+@media (min-width: 1280px) {
+    main section article div.product-truck{
+        position:relative;
+        right:-70px;
+        justify-content:flex-start;
+        width:60%;
+    }
+    .h2-carrito{
+        width:200px;
+        position:relative;
+        left:6%;
+    }
+    h2{
+        font-size:40px ; 
+    }
+    h4.product{
+        font-size:30px;
+    }
+    .h3-precio-total{
+        width:300px;
+        position:relative;
+        left:6%;
+    }
+    h3{
+        font-size:25px;
+    }
+    button.boton-comprar{
+        margin:30px 0;
+        position:relative;
+        left:80px
+     }
 }
